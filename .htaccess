@@ -1,0 +1,3 @@
+ErrorDocument 403 /forbide.html 
+ErrorDocument 404 /notfound.html
+ErrorDocument 503 /servererror.html

@@ -1,4 +1,9 @@
 <?php
+//error_reporting(0); //iskljucujemo sva upozorenja
+//error_reporting(E_ALL); //za dev/test okruzenje
+//error_reporting(0); // za production okruzenje
+ini_set("error_reporting",0);
+ini_set("max_input_time",59);
 header("content-type:application/json");
 //print_r($GLOBALS);
 $globalsJSON=json_encode($GLOBALS,JSON_PRETTY_PRINT);

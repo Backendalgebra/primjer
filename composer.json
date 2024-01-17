@@ -3,6 +3,7 @@
         "psr/log": "^3.0",
         "guzzlehttp/guzzle": "^7.8",
         "cocur/slugify": "^4.5",
-        "mtdowling/jmespath.php": "^2.7"
+        "mtdowling/jmespath.php": "^2.7",
+        "lfiweb/jsonstat-phpviz": "^2.0"
     }
 }

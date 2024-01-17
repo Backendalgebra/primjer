@@ -27,7 +27,7 @@ var_dump(json_decode($vdim[2]));
 $auto=json_decode($vdim[2]);
 echo "<br>".$auto->boja;
 echo "fiat2 je<br>".$auto->opis->key[0][1]->marka;
-//dekodiraj jskon u array
+//dekodiraj json u array
 var_dump(json_decode($vdim[2], true));
 $auto2=json_decode($vdim[2],true);
 print_r(json_decode($vdim[2], true));

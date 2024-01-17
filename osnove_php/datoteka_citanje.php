@@ -17,8 +17,10 @@ file_put_contents($file,$globalsJSON);
 //citaj file
 
 $procitanifile=file_get_contents($file,false,null,0,filesize($file));
-//echo $procitanifile;
 
-$dekodiraniniz=json_decode($procitanifile,1);
+$dekodiraniniz=json_decode($procitanifile);
+echo $dekodiraniniz->_SERVER->SCRIPT_NAME.PHP_EOL;
+
 //print_r($dekodiraniniz);
-echo $dekodiraniniz["_SERVER"]["Path"];
+$dekodiraniniz=json_decode($procitaniFile,1);
+echo $dekodiraniniz["_SERVER"]["SCRIPT_NAME"].PHP_EOL;

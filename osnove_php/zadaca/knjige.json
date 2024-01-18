@@ -26,12 +26,5 @@
         "Available": "Available",
         "Pages": 4,
         "Isbn": 97875211106235
-    },
-    {
-        "Title": "4",
-        "Author": "4",
-        "Available": "Unavailable",
-        "Pages": "4",
-        "Isbn": "4"
     }
 ]
